@@ -50,7 +50,7 @@ public class PropertyFragment extends Fragment {
         String carNum;
         try{
             carNum = edText1.getText().toString();
-        }catch (NumberFormatException e){
+        }catch (Exception e){
             carNum = "";
         }
 
