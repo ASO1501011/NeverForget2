@@ -72,31 +72,31 @@ public class MemorialFragment extends Fragment {
         String wedding;
         try{
             wedding = edText1.getText().toString();
-        }catch (NumberFormatException e){
+        }catch (Exception e){
             wedding = "";
         }
         String birth_w;
         try{
             birth_w = edText2.getText().toString();
-        }catch (NumberFormatException e){
+        }catch (Exception e){
             birth_w = "";
         }
         String birth_c_1;
         try{
             birth_c_1 = edText3.getText().toString();
-        }catch (NumberFormatException e){
+        }catch (Exception e){
             birth_c_1 = "";
         }
         String birth_c_2;
         try{
             birth_c_2 = edText4.getText().toString();
-        }catch (NumberFormatException e){
+        }catch (Exception e){
             birth_c_2 = "";
         }
         String birth_c_3;
         try{
             birth_c_3 = edText5.getText().toString();
-        }catch (NumberFormatException e){
+        }catch (Exception e){
             birth_c_3 = "";
         }
 
